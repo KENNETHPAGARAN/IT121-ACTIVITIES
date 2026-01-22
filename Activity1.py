@@ -1,0 +1,13 @@
+customer_number = int(input("customer number:"))
+customer_name = (input("customer name:"))
+item = (input("item:"))
+price = int(input("price:"))
+quantity = int(input("quantity:"))
+
+print("----------------------------")
+print("         RECEIPT            ")
+print(" customer nymber:", customer_number)
+print(" customer name:", customer_name)
+print(" item descrpition:", item)
+print("YOUR TOTAL PRICE IS:", price * quantity)
+print("----------------------------")
